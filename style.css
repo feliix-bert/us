@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Sixtyfour&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: url(up.jpg);
+  height: 110vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+
+.title1 {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" -6;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  line-height: 40px;
+}
+.buttonClass {
+  position: relative;
+  top: 43%;
+}
+
+.button {
+  padding: 5px 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.3px);
+  -webkit-backdrop-filter: blur(9.3px);
+  border: 1px solid rgba(255, 255, 255, 0.863);
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: white;
+  transform: scale(1.15);
+  color: #6c9ff4;
+}
+.l-emoji {
+  margin-top: 10px;
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 26%;
+}
+.cardli {
+  padding: 20px 0px;
+  width: 170px;
+  font-style: none;
+  margin-top: 10%;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.3px);
+  -webkit-backdrop-filter: blur(9.3px);
+  border: 1px solid rgba(221, 221, 221, 0.719);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 500;
+}
+.bCli {
+  text-decoration: none;
+  margin: 0 3%;
+}
+.title2 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 20%;
+  color: white;
+}
+.title3 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 3%;
+  color: white;
+}
+.cardli2 {
+  padding: 40px 20px;
+  width: 120px;
+  font-style: none;
+  margin-top: 20%;
+  height: 150px;
+  /* From https://css.glass */
+  background: rgba(182, 235, 255, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.3px);
+  -webkit-backdrop-filter: blur(5.3px);
+  border: 1px solid rgba(182, 235, 255, 0.3);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 500;
+}
+.cardli3 {
+  padding: 40px 20px;
+  width: 300px;
+  max-width: 90%;
+  font-style: none;
+  margin-top: 30px;
+  height: 200px;
+  /* From https://css.glass */
+  background: rgba(182, 235, 255, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.3px);
+  -webkit-backdrop-filter: blur(5.3px);
+  border: 1px solid rgba(182, 235, 255, 0.3);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 500;
+}
+.cardli2 > img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 20px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cardli3 > img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 20px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.cardli3 > p {
+  position: relative;
+  bottom: 60px;
+}
+.container223 {
+  background: url(up.jpg);
+  height: 100%;
+  padding: 30px 0px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.container224 {
+  background: url(up.jpg);
+  height: 100%;
+  padding: 30px 0px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.cardContainer2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 26%;
+  margin-top: 30px;
+}
+.cardContainer3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 30px;
+}
+
+.plus {
+  width: 100px;
+}
+.ord {
+  width: 200px;
+  max-width: 80%;
+}
+.mainM {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  width: 70%;
+  margin: 20px auto;
+  position: relative;
+  top: 20%;
+}
+.meContainer {
+  position: relative;
+  /* From https://css.glass */
+  background: rgba(182, 235, 255, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.3px);
+  -webkit-backdrop-filter: blur(5.3px);
+  border: 1px solid rgba(182, 235, 255, 0.3);
+  width: 80%;
+  margin: 0 auto;
+  top: 40%;
+  color: white;
+}
+.prg {
+  font-size: 20px;
+  position: relative;
+  bottom: 10px;
+}
